@@ -6,7 +6,7 @@ import portalocker
 class Storage:
     INTEGER_LENGTH = 8
     SUPERBLOCK_SIZE = 2048
-    INTEGER_FORMAT = "!Q"
+    INTEGER_FORMAT = "!Q"  # big-endian unsigned long long
 
     def __init__(self, file):
         self._file = file
