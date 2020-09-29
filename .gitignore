@@ -1,0 +1,12 @@
+*.egg-info
+*.pyc
+
+bin
+data
+develop-eggs
+eggs
+.venv
+.installed.cfg
+logs/*
+development.ini
+.idea
